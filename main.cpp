@@ -1,8 +1,10 @@
-#include "Orderbook.h"
+#include <gtest/gtest.h>
 
-int main()
-{
-    Orderbook orderbook;
-    // Do work.
-    return 0;
+// Entry point for running the tests
+int main(int argc, char** argv) {
+    // Initialize Google Test
+    ::testing::InitGoogleTest(&argc, argv);
+
+    // Run the tests
+    return RUN_ALL_TESTS();
 }
